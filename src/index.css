@@ -45,7 +45,7 @@
   }
 
   header img {
-    @apply w-full max-w-lg h-auto object-contain mx-auto drop-shadow-md;
+    @apply w-full max-w-max h-auto object-contain mx-auto drop-shadow-md;
   }
 }
 
@@ -55,7 +55,7 @@
   }
 
   .wrapper {
-    @apply px-5 py-12 xs:p-10 max-w-7xl mx-auto flex flex-col relative z-10;
+    @apply px-4 py-12 xs:p-10 max-w-5xl mx-auto flex flex-col relative z-10;
   }
 
   .trending {
