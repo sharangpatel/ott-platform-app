@@ -31,6 +31,9 @@
   h1 {
     @apply mx-auto max-w-4xl text-center text-5xl font-bold leading-tight tracking-[-1%] text-white sm:text-[64px] sm:leading-[76px];
   }
+  .new-h1 {
+    @apply text-5xl
+  }
 
   h2 {
     @apply text-2xl font-bold text-white sm:text-3xl;
@@ -47,15 +50,18 @@
   header img {
     @apply w-full max-w-max h-auto object-contain mx-auto drop-shadow-md;
   }
+  .hero-img {
+    @apply mt-[-6rem] z-10
+  }
 }
 
 @layer components {
   .pattern {
-    @apply bg-hero-pattern w-screen h-screen bg-center bg-cover absolute z-0;
+    @apply bg-hero-pattern w-full h-screen bg-center bg-cover absolute z-0;
   }
 
   .wrapper {
-    @apply px-4 py-12 xs:p-10 max-w-5xl mx-auto flex flex-col relative z-10;
+    @apply px-4 py-12 xs:p-7 max-w-5xl mx-auto flex flex-col relative z-10;
   }
 
   .trending {
